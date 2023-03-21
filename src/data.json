@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "Elon Reeve Musk",
+      "tweets": 777,
+      "followers": 100500,
+      "avatar": "https://i.pravatar.cc/80?img=33"
+    },
+    {
+      "id": 2,
+      "user": "James Smith",
+      "tweets": 1000,
+      "followers": 12435,
+      "avatar": "https://i.pravatar.cc/80?img=34"
+    },
+    {
+      "id": 3,
+      "user": "Michael Smith",
+      "tweets": 50,
+      "followers": 1235,
+      "avatar": "https://i.pravatar.cc/80?img=35"
+    },
+    {
+      "id": 4,
+      "user": "Robert Smith",
+      "tweets": 145,
+      "followers": 852,
+      "avatar": "https://i.pravatar.cc/80?img=36"
+    },
+    {
+      "id": 5,
+      "user": "Maria Garcia",
+      "tweets": 815,
+      "followers": 50000,
+      "avatar": "https://i.pravatar.cc/80?img=37"
+    },
+    {
+      "id": 6,
+      "user": "Maria Rodriguez",
+      "tweets": 1040,
+      "followers": 45366,
+      "avatar": "https://i.pravatar.cc/80?img=38"
+    },
+    {
+      "id": 7,
+      "user": "James Johnson",
+      "tweets": 306,
+      "followers": 99753,
+      "avatar": "https://i.pravatar.cc/80?img=39"
+    },
+    {
+      "id": 8,
+      "user": "John Fitzgerald Kennedy",
+      "tweets": 112,
+      "followers": 4357,
+      "avatar": "https://i.pravatar.cc/80?img=40"
+    }
+  ]
+}

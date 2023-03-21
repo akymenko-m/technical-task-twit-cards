@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import {
   Avatar,
   Button,
@@ -15,16 +15,15 @@ export const UserItem = ({ user, updateUsersData }) => {
 
   const toggleFollow = () => {
     setIsUserFollowing(!isUserFollowing);
+
     if (isUserFollowing) {
       setFollowers(followers - 1);
+      updateUsersData(user.id, followers - 1, !isUserFollowing);
     } else {
       setFollowers(followers + 1);
+      updateUsersData(user.id, followers + 1, !isUserFollowing);
     }
   };
-
-  useEffect(() => {
-    updateUsersData(user.id, followers, isUserFollowing);
-  }, [isUserFollowing, followers, user.id]);
 
   return (
     <UserCard

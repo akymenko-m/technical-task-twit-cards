@@ -21,6 +21,7 @@ export const CardContainer = styled.div`
   background-image: url(${bcImage});
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 308px 168px;
   position: relative;
   &::after {
     content: '';
@@ -92,9 +93,14 @@ export const Button = styled.button`
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border-radius: 10.3108px;
   border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   text-transform: uppercase;
   color: #373737;
+  :hover {
+    transform: scale(1.1);
+  }
 `;
